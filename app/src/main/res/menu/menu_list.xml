@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ShowIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home"
+            />
+
+        <item android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/menu_settings"
+            />
+
+    </group>
+    <item android:title="@string/menu_tools">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/tools_nwd"
+                    android:icon="@drawable/ic_school_black_24dp"
+                    android:title="@string/menu_tools_nwd"
+                    />
+
+                <item android:id="@+id/tools_calc"
+                    android:icon="@drawable/ic_school_black_24dp"
+                    android:title="@string/menu_tools_calc"
+                    />
+                <item android:id="@+id/tools_pesel"
+                    android:icon="@drawable/ic_school_black_24dp"
+                    android:title="@string/menu_tools_pesel"
+                    />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_others" android:checkableBehavior="single">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/others_calendar"
+                    android:icon="@drawable/ic_calendar_range_black_24dp"
+                    android:title="@string/menu_others_calendar"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_author" android:checkableBehavior="single">
+
+    <menu>
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/about_author"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/menu_about_author"
+                />
+
+            <item android:id="@+id/author_site"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="@string/menu_author_site"
+                />
+        </group>
+    </menu>
+    </item>
+
+
+
+</menu>

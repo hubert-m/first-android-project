@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/home_frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_home"
+            android:textSize="31sp"
+
+            android:textColor="#FFF"
+            android:padding="15dp"
+            android:gravity="center"
+            android:background="#26FFFFFF"
+            />
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#26000000"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:padding="11dp"
+            android:text="Skorzystaj z menu\npo lewej stronie"
+            android:textColor="#FFF"
+            android:textSize="21sp"
+            android:layout_marginTop="45dp" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

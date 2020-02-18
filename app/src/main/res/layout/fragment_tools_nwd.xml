@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Największy Wspólny Dzielnik"
+            android:textSize="31sp"
+            android:background="@drawable/nav_bar_gradient"
+            android:textColor="#FFF"
+            android:padding="15dp"
+            android:gravity="center"
+            />
+
+
+
+    <EditText
+        android:id="@+id/liczba1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pierwsza liczba"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/liczba2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Druga liczba"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/nwd_oblicz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:text="Oblicz NWD" />
+
+        <TextView
+            android:id="@+id/nwd_obliczenia_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            android:textSize="25sp"
+            android:visibility="invisible"
+            android:text="Obliczenia:" />
+
+    <TextView
+        android:id="@+id/nwd_obliczenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/nwd_wynik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border1"
+            android:padding="16dp"
+            android:visibility="invisible"
+
+            android:textSize="31sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

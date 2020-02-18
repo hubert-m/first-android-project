@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HM Java 1 Projekt</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="menu_title">Java 1 - Projekt - Hubert Machała</string>
+    <string name="menu_subtitle">Mazowiecka Uczelnia Publiczna w Płocku</string>
+
+    <string name="menu_home">Strona Główna</string>
+    <string name="menu_settings">Ustawienia</string>
+
+    <string name="menu_tools">Narzędzia</string>
+    <string name="menu_tools_nwd">Największy Wspólny Dzielnik dwóch liczb</string>
+    <string name="menu_tools_calc">Kalkulator matematyczny</string>
+    <string name="menu_tools_pesel">Sprawdź PESEL</string>
+
+    <string name="menu_others">Inne</string>
+    <string name="menu_others_calendar">Kalendarz</string>
+
+    <string name="menu_author">Autor</string>
+    <string name="menu_about_author">O Autorze</string>
+    <string name="menu_author_site">Strona WWW autora</string>
+
+
+
+    <string name="nwd_error1">Musisz wprowadzić obie liczby!</string>
+
+    <string name="check_pesel_btn_name">Sprawdź PESEL</string>
+</resources>
